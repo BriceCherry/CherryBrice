@@ -1,0 +1,100 @@
+html::before {
+    content: " ";
+    display: block;
+    height: 80px;
+    background: linear-gradient(
+      90deg,
+      hsl(240, 50%, 50%) 0%,
+      hsl(266, 95%, 7%) 100%
+    );
+  }
+
+
+  img.large { 
+    width: 500px; 
+    height: 500px;} 
+    img.medium { 
+    width: 250px; 
+    height: 250px;}
+    img.small { 
+    width: 100px; 
+    height: 100px;}
+
+
+    img.align-left {
+      float: left;
+      margin-right: 10px;}
+      img.align-right {
+      float: right;
+      margin-left: 10px;}
+      img.medium {
+      width: 250px;
+      height: 250px;}
+
+
+      img.align-center { 
+        display: block; 
+        margin: 0px auto;} 
+        img.medium { 
+        width: 250px; 
+        height: 250px;}
+header {
+  margin-bottom: 64px ;
+  text-align: center;
+}
+
+header > p {
+  margin-top: 0 12px;
+}
+       
+body { background-image: url(Images/FordLogo.png); background-size: contain; background-repeat: repeat-y; width: 150px; height: 150px;
+  width: 960px;
+  margin: 0 auto;}
+  #content {
+  overflow: auto;
+  height: 100%;}
+  #nav, #feature, #footer {
+  background-color: #efefef;
+  padding: 10px;
+  margin: 10px;}
+  .column1, .column2, .column3 {
+  background-color: #efefef;
+  width: 300px;
+  float: left;
+  margin: 10px;}
+  li {
+  display: inline;
+  padding: 5px;}
+
+
+  
+  
+
+    .HouseBuildingPage {
+      font-family: Arial, Helvetica, sans-serif;
+      display: inline-block;
+      Height: 800px;
+      overflow-y: hidden;
+      Overflow-y: scroll;
+      
+      }
+
+      #Aboutme {border: blue solid 10px;
+        padding: 5px;
+    }
+
+    .HouseBuildingPage {border: black 10px; border-style: ridge;}
+
+    #sites {align-content: center;}
+
+    .Table {
+      width: 450px;
+      padding: 5px;
+      margin: 5px;
+      margin-left: auto;
+      margin-right: auto;
+      border-style: ridge; 
+      table-layout: auto;
+      align-self: center;
+      
+    }
